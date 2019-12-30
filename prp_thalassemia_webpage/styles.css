@@ -1,0 +1,249 @@
+
+#PRP_title{
+	background-color: #A52A2A;
+	color: white;
+	padding-top:-50px;
+}
+#PRP{
+	background-color: #A52A2A;
+	color:white;
+}
+
+* { margin: 0; padding: 0; outline: 0 }
+
+body {
+		 
+	background:#003227;
+	font: 70%/1.6em Verdana, Tahoma, Arial, Geneva, sans-serif;
+	color: #666666; 
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+/* links */
+a, a:visited {	
+	color: #003227;
+	background: inherit;
+	text-decoration: none;	
+}
+a:hover {
+	color: #114B5F;
+	background: inherit;
+	text-decoration: underline;	
+}
+
+/* headers */
+h1, h2, h3 {
+	font-family: 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #114B5F;
+}
+h1 {
+	font-size: 230%;	
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+h2 {
+	font-size: 180%;
+	color: #114B5F;
+}
+h3 {
+	font-size: 150%;	
+	font-weight: normal;	
+}
+
+h1, h2, h3, p {
+	padding: 0px;		
+	margin: 0;
+}
+#wrap {
+	position: relative;
+	background: #fff url(wrap-bg1.jpg) repeat-y;
+	width: 1050px;	
+	margin: 60px auto 0 auto;
+	text-align: left;
+	padding-top:20px;
+}
+#content-wrap {
+	position: relative;
+	background: #fff ;
+	clear: both;
+	float: left;	
+	width: 1020px;	
+	padding: 5px; 			
+	margin-left: 15px;	
+	display: inline;
+	border-top: 5px solid #fff;
+	border-bottom: 1px solid #e5e5e5;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+#header {
+	position: relative;
+	background: white ;
+	width: 1020px;	
+	height: 165px;	
+	padding-top: 0px;
+        padding-left:0px;	
+	margin-top:0px;
+	margin-bottom:10px;
+	margin:0px auto 10px auto;
+}
+#header h1#logo-text {
+	font: normal 20px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: -1.5px;
+	color: black;
+	text-transform: none;
+	text-decoration: none;
+	color: black;
+	/*color: #114B5F;*/
+	/*background-color: rgb(145, 49, 4);*/
+	opacity:.8;
+	/* change the values of top and left to adjust the position of the logo*/
+	/*top: 5px; left: 20px;	*/
+}
+
+#header p#text{
+	position: absolute;
+	margin-left: 0px; padding-left: 0;
+	font: normal 10px Georgia, "Times New Roman", Times, serif;
+	text-transform: none;
+	/*color: #5b4a29;*/
+	color: #114B5F;
+	/*background-color: rgb(145, 49, 4);*/
+	text-align:right;
+	float: right;
+	opacity:0.9;
+	/* change the values of top and left to adjust the position of the slogan*/
+	top: 10px; right: 10px;		
+}
+
+#header #header-links {
+	position: absolute;
+	top: 00px; right: 10px;	
+	color: #A1AaAb;
+	font: normal 13px Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;		
+}
+#header #header-links a {	
+	color: #EEEEEE;
+	text-decoration: none;	
+	padding: 0 0px;
+	font-weight: bold;
+}
+#header #header-links a:hover {
+	color: #FFFFFF;		
+}
+
+/* header-photo */
+#header-photo {
+	clear: both;
+	background: #fff;
+	margin: 5px auto;
+	padding: 0;		
+	height:80px; 
+	width: 1020px;
+}
+#header-photo img {
+	border: none;
+	margin: 0; padding: 0;
+	opacity:1.0;
+	width:1020px;
+} 
+
+/* Main Column */
+#main {
+	float: left;
+	width: 620px;
+	padding: 15px 0 0 0; margin: 0 0 0 10px;
+	display: inline;	
+}
+#main_pic {
+	float: left;
+	width: 1000px;
+	padding: 15px 0 0 0; margin: 0 0 0 10px;
+	display: inline;	
+}
+#main p{
+	font: normal 14px "Verdana", Times, serif;
+	text-align:justify;
+}
+#main h2 {
+	margin-top: 10px;
+	padding-bottom: 3px;
+	font: normal 2.3em 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #114B5F; 
+	letter-spacing: -1px;	
+	text-transform: none;
+}
+#main h2 a {
+	color: #114B5F; 
+	text-decoration: none;	
+}
+#main ul li {
+font: normal 14px "Verdana", Times, serif;
+	list-style-image: url(bullet.gif);
+}
+#main1 {
+	float: left;
+	width: 970px;
+	padding: 15px 0 0 0; margin: 0 0 0 10px;
+	display: inline;	
+}
+#main1 p{
+	font: normal 14px "Verdana", Times, serif;
+	text-align:justify;
+}
+#main1 h2 {
+	margin-top: 10px;
+	padding-bottom: 3px;
+	font: normal 2.3em 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #114B5F; 
+	letter-spacing: -1px;	
+	text-transform: none;
+}
+#main1 h2 a {
+	color: #114B5F; 
+	text-decoration: none;	
+}
+#main1 ul li {
+	font: normal 14px "Verdana", Times, serif;
+	list-style-image: url(bullet.gif);
+}
+
+/* Sidebar */	
+
+/* footer */
+#footer-wrap {
+	clear: both;
+	width: 1050px;
+	font-size: 95%;	
+	text-align: left;
+	padding: 15px 0;		
+	border-bottom: 15px solid #fff;
+	border-top: 1px solid #fff;
+	background-color:#A52A2A;
+}
+#footer-wrap a:hover {
+	color: #000;	
+}
+#footer-wrap h3 {
+	color: #976834;  
+	margin: 0;
+	padding: 0 10px; 
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* bottom */
+#footer-bottom {
+	clear: both;
+	color: #fff;	
+	margin: 0 auto; 
+	width: 970px;
+	padding: 15px 0 0 0;
+	text-align: center;	
+}
+#footer-bottom  a {
+	color: #fff;
+}
+.clear { clear: both; }
