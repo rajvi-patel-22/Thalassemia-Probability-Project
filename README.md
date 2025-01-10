@@ -1,4 +1,50 @@
-# Thalassemia-Probability-Project
-Thalessemia cannot be completely stopped or controlled, but we can predict at which generation the thalassemia genotype becomes minor and is not severe. One way is to select an appropriate spouse that has no sign of any traits of thalassemia, if you have major/minor traits, so the chances that the child may inherit any trait of thalassemia will completely eliminate. If both the parents have major thalassemia traits, then there are full chances that the child will also inherit the same, In such cases, the couple should decide not to reproduce so as to stop the transmission to any future generations. Thus, it is important to accordingly model the transmission of thalassemia to bring it in control with generations.
-To solve our problem statement i.e. determining in which generation the born child will be free of severe thalassemia traits, we are going to use Markov's process. Markov process is a stochastic process having the property that, given its present state, the future states are independent of the past. That is, the future, which is the next generation will be determined by the the present generation, i.e. it's parents and not the past(former generation). Our probability distribution model will be modelled based on this Markov's process. Thus, through this, we can find the probability that in which generation of a family affected by thalassemia, the lower incidence genotype will be inherited and the transmission will be controlled. Lower incidence category means that the traits of thalassemia inherited are not severe and no remarkable symptoms are
-observed. Whereas, in higher incidence category, the disease will be severe and all symptoms will be fairly visible.
+# Predicting Thalassemia Transmission Using Markov Processes
+
+This project explores the use of Markov processes to predict the transmission of thalassemia across generations. By modeling genotype inheritance probabilities, the project provides insights into when the severe traits of thalassemia might be mitigated or eliminated in a family line.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Problem Statement](#problem-statement)
+- [Approach](#approach)
+- [Results](#results)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
+- [References](#references)
+
+## Introduction
+Thalassemia is an inherited blood disorder caused by the deficiency of hemoglobin and red blood cells. This project models inheritance patterns using Markov processes to determine the likelihood of severe traits diminishing over generations.
+
+## Problem Statement
+Thalassemia traits cannot be entirely eliminated but can be minimized in severity over generations. By selecting appropriate genotypes in parental pairs, the model predicts the probability of children being unaffected, carriers, or affected by thalassemia across generations.
+
+## Approach
+- **Mathematical Modeling**: Utilizes Markov processes to calculate the probability distribution of thalassemia genotypes across generations.
+- **Visualization**: Graphs display the likelihood of a child having specific genotypes (unaffected, carrier, or affected) based on parental genotypes.
+- **Simulation**: Scenarios include different parental genotypes, such as unaffected, carrier, or affected, and their impact on offspring over 10 generations.
+
+## Results
+1. **Parent with Unaffected Genotype**: Probability of a child being unaffected decreases over generations, while the probability of being affected increases slightly.
+2. **Parent with Carrier Genotype**: Probability of a child being unaffected and affected decreases, while being a carrier remains constant.
+3. **Parent with Affected Genotype**: Probability of a child being affected decreases over generations, as marrying an unaffected partner mitigates the trait.
+<p align="center">
+  <img width="600" alt="Screenshot 2025-01-09 at 6 02 09 PM" src="https://github.com/rajvi-patel-22/Thalassemia-Probability-Project/blob/master/Cmap-2.jpg" />
+
+
+## Technologies Used
+- **Languages**: MATLAB
+- **Tools**: MATLAB's plotting and simulation functionalities
+- **References**: Published research papers on thalassemia and Markov processes.
+
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rajvi-patel-22/thalassemia-prediction.git
+   ```
+2. Open the MATLAB project file in your MATLAB environment.
+3. Run the main script (prp.m) to generate results and visualizations.
+4. Review the output graphs to analyze genotype inheritance probabilities.
+
+## References
+- S. Thakur, S. N. Raw, and R. Sharma, "A Mathematical Model to Control the Transmission of Thalassemia Disease using Pure Fractions," Indian Journal of Science and Technology, 2016.
+- Dr. Hamidreza Shirzadfar, "Critical Review on Thalassemia: Types, Symptoms, and Treatment," 2018.
+- Grinstead, C. and Snell, J., "Introduction to Probability," American Mathematical Society, 2006.
